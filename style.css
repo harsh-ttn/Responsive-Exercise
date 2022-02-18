@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 5vw;
+}
+
+.nav-logo h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-links {
+  width: 60vw;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-links li {
+  padding: 12px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.nav-links a:hover {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bolder;
+}
+
+.nav-links select {
+  border: none;
+}
+
+.nav-button {
+  background-color: orangered;
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 0.2rem;
+}
+
+/* banner */
+
+.banner {
+  position: relative;
+  background: url("../images/banner.png") no-repeat center center/cover;
+  height: 75vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.dragger {
+  font-size: 25px;
+  opacity: 0.5;
+}
+.draggers {
+  font-size: large;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.drag1 {
+  top: 35vh;
+  left: 1vw;
+}
+.drag2 {
+  top: 35vh;
+  left: 96vw;
+}
+.drag3 {
+  top: 70vh;
+  left: 49vw;
+}
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.banner p {
+  padding: 2vw 5vw;
+  font-size: 1rem;
+}
+.banner a {
+  text-decoration: none;
+  background-color: orangered;
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 0.2rem;
+}
+
+/* about */
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 5vw;
+}
+.about-content {
+  width: 45vw;
+  display: inline-block;
+  padding: 0 25px;
+}
+.about-content h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.about-contenet p {
+  padding: 2vw 5vw;
+  font-size: 1rem;
+}
+.content1 p {
+  font-size: 1.3rem;
+}
+.content2 {
+  text-align: justify;
+}
+.fa-check {
+  color: orangered;
+}
+
+/* logos */
+
+.logos {
+  padding: 0 5vw;
+  background-color: rgb(245, 245, 245);
+  padding: 0 10vw;
+}
+
+.logos ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos img {
+  max-width: 125px;
+  width: 15vw;
+}
+
+/* services */
+.services {
+  margin: 5vh 5vw 10vh;
+}
+.services ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services li {
+  width: 38vw;
+  background-color: rgb(245, 245, 245);
+  border-radius: 0.5rem;
+  margin: 10px 10px;
+}
+.service {
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+}
+.service-content {
+  padding-left: 20px;
+}
+.service i {
+  font-size: 30px;
+  color: orangered;
+}
+.service p {
+  text-align: justify;
+  padding: 10px 0;
+}
+
+/* photos */
+
+.photo-options {
+  width: 100vw;
+}
+.photo-options ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-options button {
+  padding: 10px 25px;
+  background-color: white;
+  border: none;
+  border-radius: 0.2rem;
+}
+.photo-options button:visited {
+  background-color: orangered;
+  color: white !important;
+}
+.photo-options button:focus {
+  background-color: orangered;
+  color: white !important;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photos img {
+  width: 25vw;
+  margin: 10px;
+}
+
+/* contact */
+
+.contact {
+  margin-top: 5vh;
+  padding: 5vh 10vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: rgb(92, 93, 114);
+  color: white;
+}
+.contact h2 {
+  font-size: 1.3rem;
+}
+.contact h3 {
+  font-size: 1.1rem;
+}
+.contact p {
+  font-size: 0.75rem;
+  padding: 15px 0;
+}
+.contact li {
+  font-size: 0.75rem;
+  padding: 10px 0;
+}
+.address {
+  display: flex;
+  width: 20vw;
+  flex-direction: column;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+.useful-links {
+  display: flex;
+  width: 15vw;
+  flex-direction: column;
+}
+.our-services {
+  display: flex;
+  width: 15vw;
+  flex-direction: column;
+}
+.contact-form {
+  display: flex;
+  width: 20vw;
+  flex-direction: column;
+}
+.sub-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-form input {
+  padding: 10px 25px;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+}
+.contact-form button {
+  padding: 10px 15px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+/* footer */
+
+footer {
+  padding: 20px 20px;
+  background-color: rgb(72, 70, 94);
+  text-align: center;
+  color: white;
+}
+footer button {
+  border: none;
+  background-color: orangered;
+  color: white;
+  float: right;
+  padding: 4px 8px;
+}
+
+/*----- media queries -----*/
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  /* navbar */
+  .nav-links ul {
+    flex-wrap: wrap;
+  }
+  /* logos */
+  .logos img {
+    width: 20vw;
+  }
+  /* photos */
+  .photos img {
+    width: 40vw;
+    margin: 10px;
+  }
+  /* footer */
+}
+
+@media (max-width: 768px) {
+  /* navbar */
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar h1 {
+    font-size: 3rem;
+  }
+  .nav-links ul {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .border,
+  .nav-links li {
+    display: block;
+    width: 70vw;
+    border-bottom: 0.5px solid rgb(240, 240, 240);
+  }
+  /* about */
+  .about-container {
+    flex-direction: column;
+  }
+  .about-content {
+    width: 80vw;
+  }
+  /* logos */
+  .logos ul {
+    flex-wrap: wrap;
+  }
+  .logos img {
+    width: 30vw;
+  }
+  /* service */
+  .services li {
+    width: 75vw;
+  }
+  /* photos */
+  .photos img {
+    width: 60vw;
+    margin: 10px;
+  }
+  /* footer */
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .border {
+    padding: 15px 0;
+  }
+}
